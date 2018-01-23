@@ -49,7 +49,7 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-	#header, .pages, #footer-content, #copyright {
+	#header, .pages, #footer-wrapper, #footer-content, #copyright {
 	margin: 0px auto;
 	max-width: 1080px;
 	}
@@ -293,8 +293,6 @@ nav a:hover {
 
 /*----------------------Footer----------------------*/
 
-/*Test updates*/
-
 footer {
 	background-color: #f0f0f0;
 	padding: 32px 0 0px;
@@ -306,15 +304,30 @@ footer {
 	}
 }
 
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 1200px) {
 	#footer-content p {
 		display: inline-block;
 	}
 	#footer-content {
+		float: right;
 		left: 25%;
+		width: 75%;
+	}
+}
+@media screen and (min-width: 900px) {
+	#footer-content p {
+		display: inline;
+	    padding-right: 40px;
 	}
 }
 
+@media screen and (min-width: 1200px) {
+	#copyright {
+		display: inline-block;
+		float: left;
+		width: 25%;
+	}
+}
 
 #copyright p{
     font-weight: bold;
