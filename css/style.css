@@ -18,6 +18,13 @@ img {
 	width: 100%;
 }
 
+#stripe {
+	background-color: #ff7575;
+	height: 100%;
+    position: fixed;
+	width: 12px;
+}
+
 /*----------------------Containers----------------------*/
 
 #dark-wrapper {
@@ -248,14 +255,22 @@ p a:hover {
 .case-study-intro {
 	color: #fff;
 	font-size: 28px;
-	line-height: 34px;
+	line-height: 38px;
 	margin-bottom: 0px;
+}
+
+@media screen and (min-width: 600px) {
+	.case-study-intro {
+		font-size: 32px;
+		line-height: 40px;
+	}
 }
 
 @media screen and (min-width: 900px) {
 	.case-study-intro {
 		font-size: 38px;
 		line-height: 48px;
+		max-width: 920px;
 	}
 }
 
@@ -406,31 +421,29 @@ nav a:hover {
 	padding-bottom: 9px;
 }
 
+
 .lead-paragraph p {
-	font-size: 18px;
+	color: #75797F;
+	font-size: 16px;
 	line-height: 28px;
 }
 
-@media screen and (min-width: 600px) {
-
-	.lead-paragraph {
-
-	}
+@media screen and (min-width: 900px) {
 
 	.intro-left {
 		display: inline-block;
-		float: left;
-		clear: both;
-		width: 50%;
-		display: inline;
+		width: 47%;
 	}
 
 	.intro-right {
 		float: right;
-		clear: both;
-		width: 50%;
-		display: inline;
+		width: 47%;
 	}
+}
+
+#project-body p {
+	font-size: 16px;
+	line-height: 28px;
 }
 
 /*----------------------Grid items----------------------*/
