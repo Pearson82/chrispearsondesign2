@@ -10,6 +10,7 @@
 
 body {
 	font-family: karla;
+	-webkit-font-smoothing: antialiased;
 
 }
 
@@ -29,7 +30,7 @@ body {
 
 #header, .pages, #footer-content, #copyright, #page-header-bar, #grid-container {
 	margin: 0px 30px; 
-	padding-bottom: 24px;
+	padding-bottom: 40px;
 }
 
 @media screen and (min-width: 600px) {
@@ -44,8 +45,7 @@ body {
 	#header, .pages, #footer-content, #copyright, #page-header-bar, #grid-container {
 		margin: 0 auto;
 		max-width: 900px;
-/*		padding-bottom: 88px;
-*/	}
+	}
 }
 
 @media screen and (min-width: 1200px) {
@@ -105,7 +105,7 @@ h3 {
 	font-size: 20px;
 	font-weight: normal;
 	line-height: 30px;
-	margin: 0 0 30px;
+	margin: 0 0 24px;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -224,10 +224,17 @@ p a:hover {
 
 .client, .project-name {
 	color: #fff;
-	font-size: 18px;
+	display: inline-block;
+	font-size: 14px;
 	font-weight: bold;
 	line-height: 24px;
-	margin-bottom: 0px;
+	margin: 0px 8px 0px 0px;
+}
+
+@media screen and (min-width: 900px) {
+	.client, .project-name {
+		font-size: 16px;
+	}
 }
 
 .project-name {
@@ -236,8 +243,16 @@ p a:hover {
 
 .case-study-intro {
 	color: #fff;
-	font-size: 36px;
-	line-height: 46px;
+	font-size: 28px;
+	line-height: 34px;
+	margin-bottom: 0px;
+}
+
+@media screen and (min-width: 900px) {
+	.case-study-intro {
+		font-size: 38px;
+		line-height: 48px;
+	}
 }
 
 /*----------------------Header----------------------*/
@@ -266,6 +281,11 @@ header {
 	#logo { 
 	position: absolute;
 	}
+}
+
+.lead-paragraph p {
+	font-size: 18px;
+	line-height: 28px;
 }
 
 
@@ -373,6 +393,16 @@ nav a:hover {
 	padding-left: 4px;
 	vertical-align: top;
 
+}
+
+/*----------------------Case study header----------------------*/
+
+#page-header-bar > #case-study-container {
+	padding-top: 30px;
+}
+
+.project-kickers {
+	padding-bottom: 9px;
 }
 
 /*----------------------Grid items----------------------*/
