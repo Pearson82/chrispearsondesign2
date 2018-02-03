@@ -27,13 +27,13 @@ body {
 	padding-top: 48px;
 }
 
-#header, .pages, #footer-content, #copyright, #project-grid-top, #grid-container {
+#header, .pages, #footer-content, #copyright, #page-header-bar, #grid-container {
 	margin: 0px 30px; 
 	padding-bottom: 24px;
 }
 
 @media screen and (min-width: 600px) {
-	#header, .pages, #footer-content, #copyright, #project-grid-top, #grid-container {
+	#header, .pages, #footer-content, #copyright, #page-header-bar, #grid-container {
 	margin: 0px auto;
 	width: 80%;
 	padding-bottom: 48px;
@@ -41,7 +41,7 @@ body {
 }
 
 @media screen and (min-width: 900px) and (max-width: 1199px) {
-	#header, .pages, #footer-content, #copyright, #project-grid-top, #grid-container {
+	#header, .pages, #footer-content, #copyright, #page-header-bar, #grid-container {
 		margin: 0 auto;
 		max-width: 900px;
 /*		padding-bottom: 88px;
@@ -49,7 +49,7 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-	#header, .pages, #footer-wrapper, #footer-content, #copyright, #project-grid-top, #grid-container {
+	#header, .pages, #footer-wrapper, #footer-content, #copyright, #page-header-bar, #grid-container {
 	margin: 0px auto;
 	max-width: 1080px;
 	}
@@ -340,7 +340,7 @@ nav a:hover {
 	background-color: #fff;
 }
 
-#project-grid-top {
+#page-header-bar {
 	padding-top: 80px;
 }
 
