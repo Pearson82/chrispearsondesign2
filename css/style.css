@@ -18,12 +18,28 @@ img {
 	width: 100%;
 }
 
-#stripe {
-	background-color: #ff7575;
+/*#stripe {
+	background-color: #f0f0f0;
 	height: 100%;
     position: fixed;
-	width: 12px;
+	width: 3%;
 }
+
+#stripe-right {
+	background-color: #f0f0f0;
+	height: 100%;
+    position: fixed;
+    right: 0px;
+	width: 3%;	
+}
+
+#stripe-top {
+	background-color: #f0f0f0;
+	height: 3%;
+    position: fixed;
+    top: 0px;
+	width: 100%;	
+}*/
 
 /*----------------------Containers----------------------*/
 
@@ -62,7 +78,7 @@ img {
 @media screen and (min-width: 1200px) {
 	#header, .pages, #footer-wrapper, #footer-content, #copyright, #page-header-bar, #grid-container {
 	margin: 0px auto;
-	max-width: 1080px;
+	max-width: 1020px;
 	}
 }
 
@@ -130,9 +146,9 @@ h3 {
 
 @media screen and (min-width: 900px) {
 	h3 {
-	font-size: 38px;
+	font-size: 34px;
 	letter-spacing: -.5px;
-	line-height: 48px;
+	line-height: 44px;
 	}
 }
 
@@ -421,6 +437,9 @@ nav a:hover {
 	padding-bottom: 9px;
 }
 
+.lead-paragraph {
+	padding-bottom: 24px;
+}
 
 .lead-paragraph p {
 	color: #75797F;
@@ -432,12 +451,12 @@ nav a:hover {
 
 	.intro-left {
 		display: inline-block;
-		width: 47%;
+		width: 48%;
 	}
 
 	.intro-right {
 		float: right;
-		width: 47%;
+		width: 48%;
 	}
 }
 
